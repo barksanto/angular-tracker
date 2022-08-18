@@ -15,4 +15,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void { // life cycle method- when initializing 
   }
 
+  toggleAddTask() {
+    console.log("add task")
+  }
 }
