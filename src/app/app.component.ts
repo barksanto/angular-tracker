@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-root', // where it goes
+  templateUrl: './app.component.html', // what it uses
+  styleUrls: ['./app.component.css']  // what it uses
 })
 export class AppComponent {
-  title = 'angular-tasks';
+  title:string = 'Task Tracker';
 }
