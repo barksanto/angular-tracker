@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import {Task} from "../../Task"
 
 @Component({
   selector: 'app-add-task',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./add-task.component.css']
 })
 export class AddTaskComponent implements OnInit {
+  @Output() onAddTask: EventEmitter<Task> = new EventEmitter
   // using !, try to initialize the array when you declare it next "makes: any[] = [];"
   text!: string;
   day!: string;
@@ -28,11 +30,12 @@ export class AddTaskComponent implements OnInit {
       reminder: this.reminder
     }
 
+    this.onAddTask.emit(newTask)
+
     this.text = "";
     this.day = "";
     this.reminder = false;
 
-    // @ TODO **emit event**
   }
 
 

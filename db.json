@@ -19,40 +19,10 @@
       "reminder": true
     },
     {
-      "id": 6,
-      "text": "TEST",
-      "day": "May 7th at 12:30pm",
-      "reminder": false
-    },
-    {
-      "id": 7,
-      "text": "TEST",
-      "day": "May 7th at 12:30pm",
-      "reminder": false
-    },
-    {
-      "id": 8,
-      "text": "TEST",
-      "day": "May 7th at 12:30pm",
-      "reminder": false
-    },
-    {
-      "id": 9,
-      "text": "TEST",
-      "day": "May 7th at 12:30pm",
-      "reminder": false
-    },
-    {
-      "id": 10,
-      "text": "TEST",
-      "day": "May 7th at 12:30pm",
-      "reminder": false
-    },
-    {
-      "id": 11,
-      "text": "TEST",
-      "day": "May 7th at 12:30pm",
-      "reminder": true
+      "text": "eat",
+      "day": "today",
+      "reminder": true,
+      "id": 4
     }
   ]
 }
