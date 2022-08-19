@@ -1,3 +1,11 @@
 .add-form{
   margin-bottom: 40px;
 }
+
+form{
+  border: 3px solid rgb(0, 136, 255);
+  width: 100%;
+  padding: 15px;
+  border-radius: 4px;
+}
+
