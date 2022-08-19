@@ -1,5 +1,5 @@
-<!-- <p>task-item works!</p> -->
-<div class="task">
+<!-- if reminder class is true , add green border -->
+<div class="task" [ngClass]="{reminder: task.reminder}" (dblclick)="onToggle(task)">
   <h3>
     {{task.text}}
     <fa-icon 
