@@ -1,5 +1,6 @@
 <!-- We're inside tasks.component, but rendering <app-task-item> component  -->
-<app-task-item 
+<app-add-task></app-add-task>
+  <app-task-item 
   *ngFor="let task of tasks" 
   [task]="task" 
   (onDeleteTask)="deleteTask(task)"
