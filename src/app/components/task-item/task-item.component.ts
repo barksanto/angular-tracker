@@ -17,7 +17,7 @@ export class TaskItemComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void { // like useEffect?
   }
 
   onDelete(task: Task) {

@@ -4,7 +4,6 @@ import { TaskService } from '../../services/task.service';
 import { Task } from '../../Task';
 
 
-
 @Component({
   selector: 'app-tasks',
   templateUrl: './tasks.component.html',
